@@ -2,7 +2,7 @@
 const productos = [
     {
         id: 1,
-        nombre: 'Mochila urbana',
+        nombre: 'Mochila urbana.',
         precio: 19990,
         imagen: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80',
         descripcion: 'Mochila cómoda y resistente para el uso diario.'
