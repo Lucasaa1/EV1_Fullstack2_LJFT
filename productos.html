@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>
+        Tienda Online - Productos
+    </title>
+    <link rel = "Stylesheet" href = "style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Mi Tienda Online
+            <p>Conoce todos nuestros produyctos</p>
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href = "index.html"> Inicio</a></li>
+            <li><a class = "activo" href = "productos.html"> Productos</a></li>
+            <li><a href = "contacto.html"> Contacto</a></li>
+            <li><a href = "#resumenCarrito">Carrito(<span class = "cantidad-carrito">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id = "catalogo">
+            <h2>Catalogo de productos</h2>
+            <p>Selecciona los productos que quieras agregar al carrito</p>
+            <div id = "listaProductos" class = "contenedor-productos"></div>
+        </section>
+
+        <section id = "resumenCarrito" class = "resumen-carrito">
+            <h2>Resumen del carrito</h2>
+            <p>Productos agregados: <strong id = "totalCarrito">0</strong></p>
+            <button id = "vaciarCarrito" type = "button">Vaciar carrito</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mi Tienda Online - Todos los derechos robados</p>
+        <p>Contacto: contacto@mitienda.cl</p>
+    </footer>
+
+    <script src = "script.js"></script>
+    </body>
+    </html>

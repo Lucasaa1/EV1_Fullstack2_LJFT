@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>
+        Tienda Online - Evaluacion 1
+    </title>
+    <link rel = "Stylesheet" href = "style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Mi Tienda Online
+            <p>Productos utiles a buenos precios</p>
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a class = "activo" href = "index.html"> Inicio</a></li>
+            <li><a href = "productos.html"> Productos</a></li>
+            <li><a href = "contacto.html"> Contacto</a></li>
+            <li><a href = "productos.html#resumenCarrito">Carrito(<span class = "cantidad-carrito">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id = "banner">
+            <div>
+                <h2>Bienvenidos a nuestra tienda</h2>
+                <p>Encuentra productos seleccionados para acompañarte todos los dias.</p>
+                <a class = "boton" href = "productos.html">VEr productis</a>
+            </div>
+            <img src = "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80" alt = "Interior de una tienda con productos">
+        </section>
+
+        <section>
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda online creada para ofrecer productos practicos, accesibles y de buena calidad. Nuestro objetivo es entregar una experiencia de compra sencilla y cercana</p>
+        </section>
+
+        <section>
+            <h2>Productos destacados</h2>
+            <div id = "productosDestacados" class = "contenedor-productos"></div>
+        </section>
+
+        <section>
+            <h2>Conoce mas sobre nosotros</h2>
+            <p>Revisa este breve video de presentacion de nuestra tienda</p>
+            <video class = "video-promocional" controls>
+                <source src = "https://www.w3schools.com/html/mov_bbb.mp4" type = "video/mp4">
+                tu navegador no permite reproducir este video.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mi Tienda Online - Todos los derechos robados</p>
+        <p>Contacto: contacto@mitienda.cl</p>
+    </footer>
+
+    <script src = "script.js"></script>
+</body>
+</html>
