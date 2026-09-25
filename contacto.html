@@ -1,73 +1,74 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang="es">
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <title>
-        Tienda Online - Contacto
-    </title>
-    <link rel = "Stylesheet" href = "style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoPulse Tech - Contacto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
-        <h1>
-            Mi Tienda Online
-            <p>Estamos disponibles para ayudarte</p>
-        </h1>
+        <h1>EchoPulse Tech</h1>
+        <p>Estamos disponibles para ayudarte</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href = "index.html"> Inicio</a></li>
-            <li><a href = "productos.html"> Productos</a></li>
-            <li><a class = "activo" href = "contacto.html"> Contacto</a></li>
-            <li><a href = "productos.html#resumenCarrito">Carrito(<span class = "cantidad-carrito">0</span>)</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a class="activo" href="contacto.html">Contacto</a></li>
+            <li><a href="productos.html#resumenCarrito">Carrito (<span class="cantidad-carrito">0</span>)</a></li>
         </ul>
     </nav>
 
     <main>
         <section>
             <h2>Formulario de contacto</h2>
-            <p>Completa los siguientes datos y responderemos tu mensaje</p>
+            <p>Completa los siguientes datos y responderemos tu mensaje.</p>
 
-            <form id = "formContacto" novalidate>
+            <form id="formContacto" novalidate>
                 <div>
-                    <label for = "nombre"> Nombre Completo:</label>
-                    <input type = "text" id = "nombre" name = "name" maxlengh = "100" placeholder = "Ej: Juan Perez">
-                    <span id = "errorNombre" class = "error"></span>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="100" placeholder="Ej: Juan Pérez">
+                    <span id="errorNombre" class="error"></span>
+                </div>
+
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" maxlength="100" placeholder="Ej: nombre@duoc.cl">
+                    <span id="errorEmail" class="error"></span>
                     <small>Dominios permitidos: @duoc.cl, @profesor.duoc.cl y @gmail.com</small>
                 </div>
 
                 <div>
-                    <label for = "motivo">Motivo de contacto</label>
-                    <select id = "motivo" name = "motivo">
-                        <option value = "">Seleccione una opcion</option>
-                        <option value = "consulta">Consulta general</option>
-                        <option value = "producto">Consulta por un producto</option>
-                        <option value = "pedido">Problema con un pedido</option>
+                    <label for="motivo">Motivo de contacto:</label>
+                    <select id="motivo" name="motivo">
+                        <option value="">Seleccione una opción</option>
+                        <option value="consulta">Consulta general</option>
+                        <option value="producto">Consulta por un producto</option>
+                        <option value="pedido">Problema con un pedido</option>
                     </select>
-                    <span id = "errorMotivo" class = "error"></span>
+                    <span id="errorMotivo" class="error"></span>
                 </div>
 
                 <div>
-                    <label for = "mensaje">Comentario o mensaje:</label>
-                    <texarea id = "mensaje" name = "mensaje" maxlengh = "500" rows = "6" placeholder = "Escriba aqui su mensaje"></texarea>
-                    <span id = "errorMensaje" class = "error"></span>
-                    <small><span id = "contadorMensaje">0</span>/500 caracteres</small>
+                    <label for="mensaje">Comentario o mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" maxlength="500" rows="6" placeholder="Escriba aquí su mensaje"></textarea>
+                    <span id="errorMensaje" class="error"></span>
+                    <small><span id="contadorMensaje">0</span>/500 caracteres</small>
                 </div>
 
-                <button type = "submit">Enviar mensaje</button>
-                <p id = "mensajeExito" class ="mensaje-exito"></p>
+                <button type="submit">Enviar mensaje</button>
+                <p id="mensajeExito" class="mensaje-exito"></p>
             </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 MI Tienda Online - Todos los derechos robados</p>
+        <p>&copy; 2026 EchoPulse Tech - Todos los derechos robados.</p>
         <p>Contacto: contacto@mitienda.cl</p>
     </footer>
 
-    <script src = "script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
