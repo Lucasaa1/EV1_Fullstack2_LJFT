@@ -2,45 +2,45 @@
 const productos = [
     {
         id: 1,
-        nombre: 'Mochila urbana.',
+        nombre: 'Funda Smartphone Compostable',
         precio: 19990,
-        imagen: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80',
-        descripcion: 'Mochila cómoda y resistente para el uso diario.'
+        imagen: 'images/funda.jpg',
+        descripcion: 'Funda para smartphone compostable y biodegradable'
     },
     {
         id: 2,
-        nombre: 'Botella reutilizable',
-        precio: 9990,
-        imagen: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80',
-        descripcion: 'Botella liviana para mantener tus bebidas frescas.'
+        nombre: 'Cargador Solar Portátil',
+        precio: 39990,
+        imagen: 'images/powerbank_solar.png',
+        descripcion: 'Cargador portátil solar 22.5W'
     },
     {
         id: 3,
-        nombre: 'Audífonos inalámbricos',
-        precio: 24990,
-        imagen: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80',
-        descripcion: 'Audífonos cómodos con conexión Bluetooth.'
+        nombre: 'Audífonos Ecologicos',
+        precio: 59990,
+        imagen: 'images/audifonos.jpg',
+        descripcion: 'Audífonos cómodos fabricados con plástico rescatado del océano .'
     },
     {
         id: 4,
-        nombre: 'Cuaderno ecológico',
-        precio: 5990,
-        imagen: 'https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=600&q=80',
-        descripcion: 'Cuaderno de tapa dura fabricado con papel reciclado.'
+        nombre: 'Mouse hecho a base de bambú',
+        precio: 39990,
+        imagen: 'images/mouse.jpg',
+        descripcion: 'Mouse ecologico hecho de bambú.'
     },
     {
         id: 5,
-        nombre: 'Lámpara de escritorio',
-        precio: 15990,
-        imagen: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80',
-        descripcion: 'Lámpara compacta para estudiar o trabajar.'
+        nombre: 'Teclado hecho a base de bambú',
+        precio: 49990,
+        imagen: 'images/teclado.jpg',
+        descripcion: 'Mouse ecologico hecho de bambú.'
     },
     {
         id: 6,
         nombre: 'Taza térmica',
         precio: 11990,
-        imagen: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=600&q=80',
-        descripcion: 'Taza con tapa para conservar la temperatura.'
+        imagen: 'images/Taza.png',
+        descripcion: 'Taza con tapa electronica para conservar la temperatura.'
     }
 ];
 
