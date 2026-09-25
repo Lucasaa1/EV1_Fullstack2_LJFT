@@ -1,51 +1,50 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> <!-- version mas actual de HTML-->
+<html lang="es"> <!-- Idioma principal de la pagina web-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EchoPulse Tech - Inicio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- aceptacion de caracteres especificos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- adaptacion para otros dispositivos-->
+    <title>EchoPulse Tech - Inicio</title> <!-- Titulo de la pagina Inicio (index)-->
+    <link rel="stylesheet" href="style.css"> <!-- conexion con el archivo de diseño style.css-->
 </head>
 <body>
     <header>
-        <h1>EchoPulse Tech</h1>
-        <p>Productos útiles a buenos precios</p>
+        <h1>EchoPulse Tech</h1> <!-- Titulo principal de la pagina -->
+        <p>Productos útiles a buenos precios</p> <!-- subtitulo -->
     </header>
 
     <nav>
-        <ul>
-            <li><a class="activo" href="index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="productos.html#resumenCarrito">Carrito (<span class="cantidad-carrito">0</span>)</a></li>
+        <ul> <!-- definicion de enlaces de navegacion -->
+            <li><a class="activo" href="index.html">Inicio</a></li> <!-- navegacion activa -->
+            <li><a href="productos.html">Productos</a></li> <!-- navegacion a productos -->
+            <li><a href="contacto.html">Contacto</a></li><!-- navegacion a contacto-->
+            <li><a href="productos.html#resumenCarrito">Carrito (<span class="cantidad-carrito">0</span>)</a></li> <!-- navegacion a la seccion resumen carrito en Productos-->
         </ul>
     </nav>
 
     <main>
         <section class="banner">
             <div>
-                <h2>Bienvenidos a nuestra tienda</h2>
-                <p>Encuentra productos seleccionados para acompañarte todos los días.</p>
-                <a class="boton" href="productos.html">Ver productos</a>
+                <h2>Bienvenidos a nuestra tienda</h2> <!-- Titulo para seccion de bienvenida -->
+                <p>Encuentra productos seleccionados para acompañarte todos los días.</p> <!-- subtitulo-->
+                <a class="boton" href="productos.html">Ver productos</a> <!-- boton que nos envia a la pagina de productos-->
             </div>
-            <img src="images/portada.jpg" alt="Portada tienda">
+            <img src="images/portada.jpg" alt="Portada tienda"> <!-- importe local de la imagen de bienvenida-->
         </section>
 
         <section>
-            <h2>Sobre nosotros</h2>
+            <h2>Sobre nosotros</h2> 
             <p>Somos una tienda online creada para ofrecer productos prácticos, accesibles y de buena calidad. Nuestro objetivo es entregar una experiencia de compra sencilla y cercana.</p>
         </section>
 
         <section>
-            <h2>Productos destacados</h2>
-            <div id="productosDestacados" class="contenedor-productos"></div>
+            <h2>Productos destacados</h2> <!-- Titulo productos destacados establecidos por el script-->
+            <div id="productosDestacados" class="contenedor-productos"></div> <!-- se muestran los productos establecidos por el script (0,3)-->
         </section>
 
         <section>
             <h2>Conoce más sobre nosotros</h2>
             <p>Revisa este breve video de presentación de nuestra tienda.</p>
-            <video class="video-promocional" controls>
-                <source src="video/forest.mp4" type="video/mp4">
+            <video class="video-promocional" controls> <source src="video/forest.mp4" type="video/mp4"> <!-- importe del video de forma local-->
                 Tu navegador no permite reproducir este video.
             </video>
         </section>
@@ -56,6 +55,6 @@
         <p>Contacto: contacto@mitienda.cl</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- conexion con el archivo script.js-->
 </body>
 </html>
